@@ -3,6 +3,7 @@ site.url: beeside.net
 logo: logo.svg
 title: BeeSide
 
+copyright_date: 2017
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
