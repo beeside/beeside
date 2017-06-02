@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% include head.html %}
+</head>
+<body class="home-template" itemscope itemtype="http://schema.org/WebPage">
+<header>
+    <div>
+        <a href="{{ site.url }}"><img src="{{ site.url }}/images/{{ site.logo }}" alt="Blog Logo" /></a>
+
+        <h1>
+            <span>
+                {{ site.title }}
+            </span>
+        </h1>
+        <h2>{{ site.description }}</h2>
+    </div>
+</header>
+
+<main role="main">
+    {{ content }}
+</main>
+{% include footer.html %}
+
+{% include scripts.html %}
+</body>
+</html>
