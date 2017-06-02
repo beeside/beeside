@@ -4,6 +4,7 @@
     {% include head.html %}
 </head>
 <body class="home-template" itemscope itemtype="http://schema.org/WebPage">
+
 <header>
     <div>
         <a class="logo" href="{{ site.url }}"><img src="{{ site.url }}/assets/images/{{ site.logo }}" alt="BeeSide" /></a>
@@ -15,6 +16,8 @@
         <h2>{{ site.description }}</h2>
     </div>
 </header>
+
+{% include nav.html %}
 
 <main role="main">
     {{ content }}
