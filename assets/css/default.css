@@ -6,7 +6,15 @@ p {
     font-family: Helvetica,Arial,sans-serif;
 }
 
-.logo img {
+/************
+HEADER
+ */
+a.logo {
+    display: block;
+    text-align: center;
+}
+
+a.logo img {
     width: 50px;
     height: auto;
 }
