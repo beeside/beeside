@@ -1,1 +1,38 @@
-<p>&copy; BeeSide&trade; {{ site.copyright_date }}</p>
+<footer>
+    <div class="copyright">
+        <section>Made with <i class="fa fa-heart"></i> in Paris</section>
+        <section>&copy; BeeSide&trade; {{ site.copyright_date }}</section>
+    </div>
+
+    <div class="social-icons">
+        {% if site.social.twitter %}
+        <a href="http://twitter.com/{{ site.social.twitter }}">
+                <i class="fa fa-twitter fa-stack-1x"></i>
+        </a>
+        {% endif %}
+
+        {% if site.social.github %}
+        <a href="http://github.com/{{ site.social.github }}">
+            <i class="fa fa-twitter fa-stack-1x"></i>
+        </a>
+        {% endif %}
+
+        {% if site.social.facebook %}
+        <a href="http://facebook.com/{{ site.social.facebook }}">
+            <i class="fa fa-twitter fa-stack-1x"></i>
+        </a>
+        {% endif %}
+
+        {% if site.social.instagram %}
+        <a href="http://instagram.com/{{ site.social.instagram }}">
+            <i class="fa fa-twitter fa-stack-1x"></i>
+        </a>
+        {% endif %}
+
+        {% if site.social.google_plus %}
+        <a href="{{ site.social.google_plus }}">
+            <i class="fa fa-twitter fa-stack-1x"></i>
+        </a>
+        {% endif %}
+    </div>
+</footer>
