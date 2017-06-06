@@ -33,11 +33,16 @@ header.header {
     text-align: center;
 }
 
+header.header h2 {
+    letter-spacing: -3px;
+}
+
 header.header h6 span {
     background: #FF9900;
     color: #FFF;
     padding: .5rem;
     line-height: 3rem;
+    letter-spacing: -1px;
 }
 
 footer.footer {
@@ -66,8 +71,11 @@ footer.footer {
     animation-name: pulse;
 }
 
-.navbar {
-
+.navbar a {
+    color: #FF9900;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: -1px;
 }
 
 @-webkit-keyframes pulse {
