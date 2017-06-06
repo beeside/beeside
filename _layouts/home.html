@@ -5,9 +5,8 @@
 </head>
 <body class="home-template" itemscope itemtype="http://schema.org/WebPage">
 
-<header>
+<header class="header">
     <div>
-        <a class="logo" href="{{ site.url }}"><img src="{{ site.url }}/assets/images/{{ site.logo }}" alt="BeeSide" /></a>
         <h1>
             <span>
                 {{ site.title }}
@@ -21,6 +20,7 @@
 
 <main role="main">
     {{ content }}
+
 </main>
 {% include footer.html %}
 
