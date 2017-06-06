@@ -12,6 +12,10 @@ hr {
     max-width: 50px;
 }
 
+a {
+    color: #FF9900;
+}
+
 /************
 HEADER
  */
@@ -49,9 +53,6 @@ footer.footer {
     text-align: center;
 }
 
-.social-icons a {
-    color: #FF9900;
-}
 
 .love {
     color: #F27490;
@@ -72,7 +73,6 @@ footer.footer {
 }
 
 .navbar a {
-    color: #FF9900;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: -1px;
