@@ -1,9 +1,9 @@
 body {
-    font-family: Helvetica,Arial,sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family:"Open Sans",Arial,sans-serif;
+    font-family: "Open Sans", Arial, sans-serif;
 }
 
 hr {
@@ -11,7 +11,6 @@ hr {
     border-width: 3px;
     max-width: 50px;
 }
-
 
 /************
 HEADER
@@ -28,13 +27,23 @@ a.logo img {
 
 header.header {
     margin-top: 4rem;
+    background: #000;
+    padding: 10rem 1rem;
+    color: #FFF;
+    text-align: center;
+}
+
+header.header h6 span {
     background: #FF9900;
-    padding: .5rem 1rem;
+    color: #FFF;
+    padding: .5rem;
+    line-height: 3rem;
 }
 
 footer.footer {
     text-align: center;
 }
+
 .social-icons a {
     color: #FF9900;
 }
@@ -48,8 +57,8 @@ footer.footer {
     animation-duration: 2s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-    animation-iteration-count:infinite;
-    -webkit-animation-iteration-count:infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
 }
 
 .pulse {
@@ -57,14 +66,30 @@ footer.footer {
     animation-name: pulse;
 }
 
+.navbar {
+
+}
 
 @-webkit-keyframes pulse {
-    0% { -webkit-transform: scale(1); }
-    50% { -webkit-transform: scale(1.2); }
-    100% { -webkit-transform: scale(1); }
+    0% {
+        -webkit-transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.2);
+    }
+    100% {
+        -webkit-transform: scale(1);
+    }
 }
+
 @keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.2); }
-    100% { transform: scale(1); }
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
