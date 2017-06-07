@@ -5,6 +5,8 @@
 </head>
 <body class="home-template" itemscope itemtype="http://schema.org/WebPage">
 
+{% include nav.html %}
+
 <header class="header">
     <div>
         <h6><span>{{ site.title }}</span></h6>
@@ -12,7 +14,7 @@
     </div>
 </header>
 
-{% include nav.html %}
+
 
 <main role="main">
     {{ content }}
