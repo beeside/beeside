@@ -1,0 +1,24 @@
+
+body {
+  font-family: $fontRegular;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $fontTitle;
+}
+
+hr {
+  border-color: #F05F40;
+  border-width: 3px;
+  max-width: 50px;
+}
+
+a {
+  color: #FF9900;
+}
+
+
+
+.love {
+  color: #F27490;
+}
