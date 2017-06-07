@@ -1,6 +1,9 @@
+//
+// Header
+// --------------------------------------------------
 
 header.header {
-  background: #000;
+  background: $gray-base;
   padding: 10rem 1rem;
   color: #FFF;
   text-align: center;
@@ -10,7 +13,7 @@ header.header {
   }
 
   h6 span {
-    background: #FF9900;
+    background: $primaryColor;
     color: #FFF;
     padding: .5rem;
     line-height: 3rem;

@@ -1,3 +1,7 @@
+//
+// Main aka common
+// --------------------------------------------------
+
 
 body {
   font-family: $fontRegular;
@@ -14,10 +18,8 @@ hr {
 }
 
 a {
-  color: #FF9900;
+  color: $primaryColor;
 }
-
-
 
 .love {
   color: #F27490;
