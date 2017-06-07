@@ -1,0 +1,31 @@
+{
+  "name": "beeside",
+  "version": "1.0.0",
+  "description": "Beeside Theme",
+  "main": "/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beeside/beeside.git"
+  },
+  "keywords": [
+    "BeeSide",
+    "theme",
+    "bootstrap"
+  ],
+  "author": "Pat Petit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beeside/beeside/issues"
+  },
+  "homepage": "https://github.com/beeside/beeside#readme",
+  "scripts": {
+    "build-css": "node-sass --include-path scss assets/scss/styles.scss assets/css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "watch-site": "bundle exec jekyll serve",
+    "build-site": "jekyll build --destination ../beesidesite"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.11.0"
+  }
+}
