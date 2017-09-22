@@ -1,8 +1,20 @@
+# dependencies
+markdown:         redcarpet
+
+# permalinks
+baseurl:          ""
+
+nav:
+  - name:           "Test"
+    href:           "/test"
+
+# setup
 site.url: beeside.net
 logo: logo.svg
 title: BeeSide
 description: Pat Petit, Full-stack developer
 
+# social
 social:
   twitter: iamPatPetit
   github: patpetit
@@ -11,6 +23,6 @@ social:
 google_analytics: UA-34565160-1
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "README.md"]
 
 test: true
