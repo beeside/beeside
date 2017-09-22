@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+<!--
+  ___         ___ _    _
+ | _ )___ ___/ __(_)__| |___
+ | _ / -_/ -_\__ | / _` / -_)
+ |___\___\___|___|_\__,_\___|
+
+-->
 <html>
 <head>
     {% include head.html %}
@@ -7,19 +14,17 @@
 
 {% include nav.html %}
 
-<header class="header">
+<header class="header with-background">
     <div>
         <h6><span>{{ site.title }}</span></h6>
         <h2>{{ site.description }}</h2>
     </div>
 </header>
 
-
-
 <main role="main">
     {{ content }}
-
 </main>
+
 {% include footer.html %}
 
 {% include scripts.html %}
