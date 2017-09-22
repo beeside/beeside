@@ -1,7 +1,6 @@
 ---
-name: Test
 layout: home
-title: TEST
+title: Test
 description: "Hello page"
 headline: Hello world
 tags: [hello, world]
