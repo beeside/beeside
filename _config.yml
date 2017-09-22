@@ -1,12 +1,17 @@
-# dependencies
-markdown:         redcarpet
-
 # permalinks
-baseurl:          ""
+
+baseurl:            ""
+permalink:          /:year/:month/:day/:title/
+
+markdown:           kramdown
+
+site.nav:
+  - name:           "About"
+    href:           "/about/"
 
 nav:
-  - name:           "Test"
-    href:           "/test"
+  - name:           "About"
+    href:           "/about/"
 
 # setup
 site.url: beeside.net

@@ -32,7 +32,9 @@
 
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/test">TEST</a></li>
+                {% for nav in site.nav %}
+                <li><a href="{{ nav.href }}">{{ nav.name }}</a></li>
+                {% endfor %}
             </ul>
 
         </div><!-- /.navbar-collapse -->
