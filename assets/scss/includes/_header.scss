@@ -7,9 +7,10 @@ header.header {
   padding: 10rem 1rem;
   color: #FFF;
   text-align: center;
+  margin-bottom: $marginSize;
 
   h2 {
-    letter-spacing: -3px;
+    letter-spacing: $titleLetterSpacing;
   }
 
   h6 span {
@@ -18,6 +19,14 @@ header.header {
     padding: .5rem;
     line-height: 3rem;
     letter-spacing: -1px;
+  }
+
+  &.with-background {
+    background: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    min-height: 50vh;
   }
 }
 
@@ -30,3 +39,4 @@ a.logo {
     height: auto;
   }
 }
+
