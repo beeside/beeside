@@ -1,17 +1,39 @@
 # permalinks
 
-baseurl:            ""
-permalink:          /:year/:month/:day/:title/
+baseurl:            "/"
+permalink:          "/:year/:month/:day/:title/"
 
 markdown:           kramdown
 
-site.nav:
-  - name:           "About"
-    href:           "/about/"
+#navigation
+navigation:
+  - title: Articles
+    url: /articles/
+    desc: Stuffs I write about
+  - title: Projects
+    url: /projects/
+    desc: Stuffs I like to do
+  - title: Work
+    url: /work/
+    desc: Stuffs I hate to do
+  - title: About
+    url: /about/
+    desc: Learn about me
 
-nav:
-  - name:           "About"
-    href:           "/about/"
+
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
 
 # setup
 site.url: beeside.net
@@ -31,3 +53,4 @@ include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "README.md"]
 
 test: true
+
