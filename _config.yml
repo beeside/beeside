@@ -7,15 +7,15 @@ markdown:           kramdown
 
 #navigation
 navigation:
-  - title: Articles
-    url: /articles/
-    desc: Stuffs I write about
+#  - title: Articles
+#    url: /articles/
+#    desc: Stuffs I write about
   - title: Projects
     url: /projects/
     desc: Stuffs I like to do
-  - title: Work
-    url: /work/
-    desc: Stuffs I hate to do
+#  - title: Work
+#    url: /work/
+#    desc: Stuffs I hate to do
   - title: About
     url: /about/
     desc: Learn about me
@@ -38,14 +38,14 @@ defaults:
 # setup
 site.url: beeside.net
 logo: logo.svg
-title: BeeSide
+title: "BeeSide™"
 description: Pat Petit, Full-stack developer
 
 # social
 social:
-  twitter: iamPatPetit
-  github: patpetit
-  instagram: patpetit.photo
+  twitter: "patpetit_"
+  github: "patpetit"
+  instagram: "patpetit_"
 
 google_analytics: UA-34565160-1
 

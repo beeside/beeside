@@ -23,3 +23,29 @@ a {
 .love {
   color: #F27490;
 }
+
+section.stacks {
+  position: relative;
+  display: block;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+
+  &.blue {
+    background-color:rgba(41, 162, 242, 1.00);
+    color: #FFF;
+  }
+
+  .container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: lighten(rgba(41, 162, 242, 1.00), 5%);
+
+    &.lighten {
+      background-color: lighten(rgba(41, 162, 242, 1.00), 10%);
+    }
+  }
+}

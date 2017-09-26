@@ -1,6 +1,6 @@
 
     <meta charset="utf-8">
-    <title>{% if page.title %}{{ page.title | upcase }} &vert; {% endif %}{{ site.title | upcase }}</title>
+    <title>{% if page.title %}{{ page.title | upcase }} &vert; {% endif %}{{ site.title }}</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     {% if page.tags %}
     <meta name="keywords" content="{{ page.tags | join: ', ' }}">
@@ -18,4 +18,17 @@
     <link rel="apple-touch-icon" sizes="114x114" href="{{ site.url }}/assets/apple-touch-icon-114x114.png" />
     <link rel="apple-touch-icon" sizes="120x120" href="{{ site.url }}/assets/apple-touch-icon-120x120.png" />
     <link rel="apple-touch-icon" sizes="144x144" href="{{ site.url }}/assets/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ site.url }}/assets/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" npm sizes="152x152" href="{{ site.url }}/assets/apple-touch-icon-152x152.png" />
+
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{% if page.title %}{{ page.title | upcase }} &vert; {% endif %}{{ site.title }}" />
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+    <meta property="og:url" content="{{ site.url }}" />
+    <meta property="og:site_name" content="{{ site.title }}™" />
+    <meta property="og:image" content="http://media.beehuge.com/2015/01/Ivan-Kislov-Foxes-Kiss-52799078.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title | upcase }} &vert; {% endif %}{{ site.title }}" />
+    <meta name="twitter:site" content="@{{ site.social.twitter }}" />
+    <meta name="twitter:image" content="http://media.beehuge.com/2015/01/Ivan-Kislov-Foxes-Kiss-52799078.jpg" />

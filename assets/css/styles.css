@@ -5826,10 +5826,29 @@ hr {
   max-width: 50px; }
 
 a {
-  color: #FF9900; }
+  color: #29a2f2; }
 
 .love {
   color: #F27490; }
+
+section.stacks {
+  position: relative;
+  display: block;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden; }
+  section.stacks.blue {
+    background-color: #29a2f2;
+    color: #FFF; }
+  section.stacks .container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #41acf3; }
+    section.stacks .container.lighten {
+      background-color: #59b7f5; }
 
 header.header {
   background: #000;
@@ -5840,7 +5859,7 @@ header.header {
   header.header h2 {
     letter-spacing: -3px; }
   header.header h6 span {
-    background: #FF9900;
+    background: #29a2f2;
     color: #FFF;
     padding: .5rem;
     line-height: 3rem;
